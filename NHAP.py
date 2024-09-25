@@ -3,6 +3,8 @@ import time
 import can
 from threading import Event, Thread
 
+# comment
+
 class CANTP(can.Listener):
     def __init__(self, bus, txid, rxid):
         self.bus = bus
